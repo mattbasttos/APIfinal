@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Trabalho Prático - Computação Gráfica (Canvas)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <div class="sidebar">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div style="font-weight:800">Trabalho Prático - CG</div>
+        <div style="color:var(--muted);font-size:12px">Canvas com pixels</div>
+      </div>
+
+      <div class="tabs" id="tabList"></div>
+
+      <div class="controls" id="controls"></div>
+
+      <div style="display:flex;gap:8px;align-items:center;margin-top:auto">
+        <button class="primary" id="clearBtn">Limpar</button>
+        <button id="undoBtn">Desfazer (Ctrl+Z)</button>
+        <button id="resetView">Resetar</button>
+        <button id="exportPng">Exportar PNG</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="canvas-wrap">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+          <div class="info">Plano cartesiano com pixels visíveis — centro é o (0,0)</div>
+          <div class="info">Escala: <span id="scaleLabel">10</span> px/un</div>
+        </div>
+        <div class="canvas-holder">
+          <canvas id="mainCanvas" width="900" height="700"></canvas>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="info">Clique/arraste no canvas para desenhar pontos/linhas quando a ferramenta permitir. Use as abas para escolher algoritmos.</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
