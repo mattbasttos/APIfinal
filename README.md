@@ -2,9 +2,6 @@
 
 Este projeto é uma aplicação web interativa para visualização de algoritmos de computação gráfica, desenvolvida com HTML, CSS e JavaScript puro. A ferramenta utiliza um Canvas HTML5 para desenhar em um plano cartesiano com pixels visíveis, permitindo ao usuário testar e visualizar diversos algoritmos fundamentais da área.
 
-![Preview da Aplicação](https://i.imgur.com/link_para_sua_imagem.png)
-*(Dica: Tire um print da sua aplicação funcionando e substitua o link acima para ter uma preview visual aqui!)*
-
 ## 🚀 Funcionalidades Implementadas
 
 O projeto está organizado em módulos que cobrem diferentes áreas da computação gráfica. Abaixo estão as principais funcionalidades disponíveis.
@@ -66,4 +63,4 @@ O código-fonte foi mantido em três arquivos separados para melhor organizaçã
 
 ---
 _Projeto desenvolvido como parte da disciplina de Computação Gráfica._
-_Seu Nome/Usuário do GitHub - 2024_
+_Mateus Bastos - 2025_
