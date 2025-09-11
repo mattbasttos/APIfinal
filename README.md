@@ -1,5 +1,7 @@
 # Trabalho Prático de Computação Gráfica: Canvas Interativo
 
+## Aluno: Mateus Bastos Araújo - 202204940043
+
 Este projeto é uma aplicação web interativa para visualização de algoritmos de computação gráfica, desenvolvida com HTML, CSS e JavaScript puro. A ferramenta utiliza um Canvas HTML5 para desenhar em um plano cartesiano com pixels visíveis, permitindo ao usuário testar e visualizar diversos algoritmos fundamentais da área.
 
 ## 🚀 Funcionalidades Implementadas
@@ -63,4 +65,4 @@ O código-fonte foi mantido em três arquivos separados para melhor organizaçã
 
 ---
 _Projeto desenvolvido como parte da disciplina de Computação Gráfica._
-_Mateus Bastos - 2025_
+_Mateus Bastos Araújo - 2025_
